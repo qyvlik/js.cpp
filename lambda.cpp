@@ -5,7 +5,7 @@
 using namespace std;
 
 #define var auto
-#define function [&]
+#define function(arg...) [&](arg)
 
 class SampleTest
 {
