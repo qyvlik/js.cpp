@@ -1,5 +1,5 @@
 /*
- * -std+=c++11 or -std+=c++13
+ * -std+=c++11 or -std+=c++14
 */
 #include <iostream>
 using namespace std;
