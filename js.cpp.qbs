@@ -4,7 +4,9 @@ CppApplication {
     type: "application" // To suppress bundle generation on Mac
     consoleApplication: true
     files: [
-        "lambda.cpp"
+        "main.cpp",
+        "src/bridge.h",
+        "src/variant.h",
     ]
 
     cpp.defines: {
